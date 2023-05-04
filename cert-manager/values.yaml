@@ -27,7 +27,7 @@ extraArgs: []
   # supporting resources required for each ClusterIssuer (default is kube-system)
   # - --cluster-resource-namespace=kube-system
 
-resources: {}
+resources:
   requests:
     cpu: 10m
     memory: 32Mi
